@@ -4,6 +4,7 @@ import { RouterTypes } from 'umi';
 // import { GlobalModelState } from './global';
 import { UserModelState } from './user';
 import { LoginState } from './login';
+import { ClassState } from './class';
 
 export interface SettingModelState {
   primaryColor: string;
@@ -30,6 +31,7 @@ export interface ConnectState {
   settings: SettingModelState;
   user: UserModelState;
   login: LoginState;
+  class: ClassState;
 }
 
 export type Effect = (
