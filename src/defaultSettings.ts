@@ -7,5 +7,5 @@ module.exports = {
   iconfontUrl: '//at.alicdn.com/t/font_1347723_76wwxr8lpwf.js',
 
   base: '/h5/',
-  publicPath: '/h5/',
+  publicPath: '/sxzPro/',// 前端的包放在后端入口的文件名
 };
