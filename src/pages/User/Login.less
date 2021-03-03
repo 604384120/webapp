@@ -1,0 +1,46 @@
+@import '~antd-mobile/lib/style/themes/default.less';
+
+@circle-size: 180px;
+@logo-size: 150px;
+
+.wrapper {
+  padding: 0 36px;
+  width: 680px;
+}
+
+.logoWrapper {
+  position: relative;
+
+  > img {
+    position: relative;
+    width: @logo-size;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: @brand-primary 0 4px 16px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: @circle-size;
+    height: @circle-size;
+    top: -(@circle-size - @logo-size) / 2;
+    left: -(@circle-size - @logo-size) / 2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1/75rem solid white;
+  }
+
+  // &      ::before {
+  // content         : '';
+  // background-color: white;
+  // position        : absolute;
+  // width           : 60px;
+  // height          : 60px;
+  // top             : -6px;
+  // left            : -6px;
+  // border-radius   : 50%;
+  // }
+}
