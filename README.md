@@ -1,4 +1,4 @@
-<h1 align="center">Ant Design Mobile Pro</h1>
+<!-- <h1 align="center">Ant Design Mobile Pro</h1>
 
 <div align="center">
 
@@ -33,4 +33,4 @@
 
 ## 一些问题
 
-1. 实测发现 fastclick 的功能在 iOS 设备上会导致输入框点击多次才有响应，故只在非 iOS 设备上[添加](/src/global.ts#L15)该功能。
+1. 实测发现 fastclick 的功能在 iOS 设备上会导致输入框点击多次才有响应，故只在非 iOS 设备上[添加](/src/global.ts#L15)该功能。 -->
